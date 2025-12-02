@@ -18,7 +18,7 @@ void main(){
   String ? name;
   print(name);
   name = "SHUVO";
-  print(name ?? "Mustafiz");  // NULL Coalescing operator prints left side if the value is not null
+  print(name);  // NULL Coalescing operator prints left side if the value is not null
                               // Otherwise it prints right side value in this case Mustafiz
 //-----------------------------------------------------------------
 

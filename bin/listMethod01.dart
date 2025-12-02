@@ -31,4 +31,8 @@ void main(){
   print(temp);
   temp.clear(); // clear all the items of the list
   print(temp);
+
+  var newList = [1, 2, 3, 4];
+
+  newList.forEach((item) => print(item));
 }
