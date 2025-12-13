@@ -10,3 +10,5 @@ void bringFuchka(Function callback){
 void bringSoap(){
   print("Soap anechi");
 }
+
+// THis is a callback function practice without parameter and no return
