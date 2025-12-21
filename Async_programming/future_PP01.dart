@@ -1,12 +1,12 @@
-void main(){
+void main() async{
   print("Future Started");
-  fetchData().then((item){
-    print("Moving ahead");
-  });
+  String name = await fetchData();
+  print(name);
   print("Future ended");
 
 }
 
-Future fetchData() async {
-  return Future.delayed(Duration(seconds: 2));
+Future<String> fetchData() async{
+  await Future.delayed(Duration(seconds: 5));
+  return "Mustfiz";
 }
