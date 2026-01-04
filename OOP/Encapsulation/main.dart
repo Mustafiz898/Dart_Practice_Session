@@ -1,10 +1,16 @@
-import 'getter_setter.dart';
+import 'get_set.dart';
 
 void main(){
   profile p1 = profile();
+  p1.isMarrid = "yes";
 
-  p1.setName("shuvo");
-  p1.setAge(25);
-  print("Name: ${p1.getName()}");
-  print("Age: ${p1.getAge()}");
+
+  // set the values
+  p1.name = "Mustafiz";
+  p1.age = 25;
+
+  // get the values
+  print("Name: ${p1.name}");
+  print("Age: ${p1.age}");
+  print("Is he married? ${p1.isMarrid}");
 }
